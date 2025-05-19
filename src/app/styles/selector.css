@@ -1,0 +1,42 @@
+.version-selector-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(200, 200, 200, 0.1);
+}
+
+.version-selector-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.version-selector-select-all-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.version-selector-checkbox-input {
+  margin-right: 8px;
+}
+
+.version-selector-versions-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.version-selector-version-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 3px;
+} 
