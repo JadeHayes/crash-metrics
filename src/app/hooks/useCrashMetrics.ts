@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchMetrics } from "@/app/api/fetchMetrics";
-import { VersionedMetrics } from "@/app/types/VersionedMertrics";
+import { VersionedMetrics } from "@/app/types/VersionedMetrics";
 import { test_start, test_end, test_step } from "../data/metrics";
 
 /**

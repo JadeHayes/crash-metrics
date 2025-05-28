@@ -1,4 +1,4 @@
-import { ChartPoint } from "../types/VersionedMertrics";
+import { ChartPoint } from "../types/VersionedMetrics";
 
 export const groupChartDataByVersion = (data: ChartPoint[]): { [version: string]: ChartPoint[] } => {
   const groups: { [version: string]: ChartPoint[] } = {};

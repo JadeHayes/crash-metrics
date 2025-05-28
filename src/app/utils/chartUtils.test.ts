@@ -1,5 +1,5 @@
-import { ChartPoint } from '../types/VersionedMertrics'; // Corrected path
-import { groupChartDataByVersion } from './chartUtils'; // Corrected path
+import { ChartPoint } from '../types/VersionedMetrics';
+import { groupChartDataByVersion } from './chartUtils';
 
 describe('groupChartDataByVersion', () => {
   it('should correctly group chart data by version', () => {

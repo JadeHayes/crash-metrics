@@ -11,7 +11,7 @@ import {
   Tooltip,
 } from "recharts";
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { ChartPoint } from "../types/VersionedMertrics";
+import { ChartPoint } from "../types/VersionedMetrics";
 import CustomTooltip from "./primitives/CustomToolTip";
 import { groupChartDataByVersion } from "../utils/chartUtils";
 import VersionSelector from "./primitives/VersionSelector";

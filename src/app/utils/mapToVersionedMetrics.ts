@@ -1,5 +1,5 @@
 import { MetricsResponse } from "../types/CrashMetrics";
-import { VersionedMetrics } from "../types/VersionedMertrics";
+import { VersionedMetrics } from "../types/VersionedMetrics";
 
 export function mapToVersionedMetrics(
   metrics: MetricsResponse
